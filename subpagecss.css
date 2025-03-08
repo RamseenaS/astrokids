@@ -1,0 +1,29 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    background: radial-gradient(circle at center, #520e63, #542472, #000000);
+    color: white;
+    margin: 5%;
+    padding: 0;
+}
+
+#facts{
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    background: #520e63, #542472, #000000;
+    position:sticky;
+    top:0 ;
+}
+
+.did-you-know {
+    margin: 20px;
+    padding: 15px;
+    height: auto;
+
+}
