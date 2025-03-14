@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Own Alien</title>
+    <link rel="stylesheet" href="alien.css">
+</head>
+<body>
+    <div class="container">
+        <h1>👽 Create Your Own Alien 👽</h1>
+        <div class="alien-container">
+            <div class="alien">
+                <div class="horns" id="horns"></div>
+                <div class="ears" id="ears"></div>
+                <div class="head" id="head">
+                    <div class="eyes">
+                        <div class="eye"></div>
+                        <div class="eye"></div>
+                    </div>
+                    <div class="mouth" id="mouth"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <label for="head-shape">Head Shape:</label>
+            <select id="head-shape">
+                <option value="circle">Circle</option>
+                <option value="oval">Oval</option>
+                <option value="square">Square</option>
+            </select>
+
+            <label for="head-color">Head Color:</label>
+            <input type="color" id="head-color">
+
+            <label for="eye-color">Eye Color:</label>
+            <input type="color" id="eye-color">
+
+            <label for="mouth-shape">Mouth Shape:</label>
+            <select id="mouth-shape">
+                <option value="smile">Smile</option>
+                <option value="frown">Frown</option>
+                <option value="straight">Straight</option>
+            </select>
+
+            <input type="checkbox" id="add-ears"> Add Ears
+            <input type="checkbox" id="add-horns"> Add Horns
+
+            <button onclick="animateAlien()">Animate</button>
+        </div>
+    </div>
+
+    <script src="alien.js"></script>
+</body>
+</html>
